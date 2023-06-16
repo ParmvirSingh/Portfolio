@@ -77,3 +77,15 @@ function expandParagraph(paragraphId, button){
         button.textContent = "Read More";
     }
 }
+
+const html = document.querySelector("html");
+const moon = document.querySelector("#moon");
+const sun = document.querySelector("#sun");
+
+moon.addEventListener("click", ()=>{
+    html.classList.toggle("dark");
+});
+
+sun.addEventListener("click", ()=>{
+    html.classList.toggle("dark");
+});
